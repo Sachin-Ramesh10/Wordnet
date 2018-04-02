@@ -1,0 +1,138 @@
+1)
+
+synsets of that word, their lemma names, definitions, and examples
+in the order below:
+synset
+definitions
+lemma names
+examples
+
+Synset('hope.n.01')
+a specific instance of feeling hopeful
+[u'hope']
+[u'it revived their hope of winning the pennant']
+
+Synset('hope.n.02')
+the general feeling that some desire will be fulfilled
+[u'hope']
+[u'in spite of his troubles he never gave up hope']
+
+ Synset('promise.n.02'),
+grounds for feeling hopeful about the future
+[u'promise', u'hope']
+[u'there is little or no promise that he will recover']
+
+ Synset('hope.n.04'),
+someone (or something) on which expectations are centered
+[u'hope']
+[u'he was their best hope for a victory']
+
+ Synset('hope.n.05'),
+United States comedian (born in England) who appeared in films with Bing Crosby (1903-2003)
+[u'Hope', u'Bob_Hope', u'Leslie_Townes_Hope']
+[]
+
+
+ Synset('hope.n.06'),
+one of the three Christian virtues
+[u'hope']
+[]
+
+
+ Synset('hope.v.01'),
+expect and wish
+[u'hope', u'trust', u'desire']
+[u'I trust you will behave better from now on', u'I hope she understands that she cannot expect a raise']
+
+
+ Synset('hope.v.02'),
+be optimistic; be full of hope; have hopes
+[u'hope']
+[u'I am still hoping that all will turn out well']
+
+
+ Synset('hope.v.03')
+intend with some possibility of fulfilment
+[u'hope', u'go_for']
+[u'I hope to have finished this work by tomorrow evening']
+
+
+
+2) i selected the synset hope.n.02
+below is the hypernym
+[Synset('feeling.n.01')]
+
+3)
+hypernym path is as given below:
+
+[Synset('entity.n.01'),
+ Synset('abstraction.n.06'),
+ Synset('attribute.n.02'),
+ Synset('state.n.02'),
+ Synset('feeling.n.01'),
+ Synset('hope.n.02')]
+
+4)
+
+follwoing were the tests on relationship:
+w.part_meronyms()
+[]
+
+w.substance_meronyms()
+[]
+
+w.member_holonyms()
+[]
+
+w.entailments()
+[]
+
+w.root_hypernyms()
+Synset('entity.n.01')
+
+definition:
+([u'entity'], u'that which is perceived or known or inferred to have its own distinct existence (living or nonliving)
+
+
+w.member_holonyms()
+[]
+
+w.lemmas()[0].antonyms() 
+'despair.n.02'
+
+definition:
+([u'despair'], u'the feeling that everything is wrong and nothing will turn out well', [
+examples:
+u'they moaned in despair and dismay', u'one harsh word would send her into the depths of despair'])
+
+
+5)
+sentiment value:
+Following are the senti synsets and their sentiment values:
+
+SentiSynset('hope.n.01')
+<hope.n.01: PosScore=0.25 NegScore=0.125>
+
+SentiSynset('hope.n.02')
+<hope.n.02: PosScore=0.375 NegScore=0.0>
+
+SentiSynset('promise.n.02')
+<promise.n.02: PosScore=0.125 NegScore=0.25>
+
+SentiSynset('hope.n.04')
+<hope.n.04: PosScore=0.0 NegScore=0.375>
+
+SentiSynset('hope.n.05')
+<hope.n.05: PosScore=0.0 NegScore=0.0>
+
+SentiSynset('hope.n.06')
+<hope.n.06: PosScore=0.25 NegScore=0.0>
+
+SentiSynset('hope.v.01')
+<hope.v.01: PosScore=0.125 NegScore=0.125>
+
+SentiSynset('hope.v.02')
+<hope.v.02: PosScore=0.625 NegScore=0.25>
+
+SentiSynset('hope.v.03')
+<hope.v.03: PosScore=0.0 NegScore=0.0>
